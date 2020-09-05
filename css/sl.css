@@ -1,0 +1,63 @@
+html, body {
+                                   
+  
+    color:blue; 
+        font-family: Roboto, Arial, Helvetica, sans-serif;
+        font-size: 1.0em;
+        color: #808080;
+        margin: 0 auto;
+        min-height:100vh;
+        min-height: -webkit-fill-available;
+        width: 100%;}
+    }
+    /* [GRILLA] */
+    .contenedor {
+        display: grid;
+        place-items:stretch center;
+        grid-template-columns:1fr;
+        grid-template-rows: 55px auto 25px;
+        grid-template-areas:
+        "head"
+        "cont"
+        "foot";
+    }
+
+    
+    }
+    .h-m1 {
+        grid-area:hm1;
+    }
+    .h-m2 {
+        grid-area:hm2;
+    }
+    .h-m3 {
+        grid-area:hm3;
+    }
+    .h-m4 {
+        grid-area:hm4;
+    }
+
+.centrado (
+    align-img:right;
+)
+.logo (
+    width:150px;
+)
+
+.menu (
+    font-size:0.55em;
+    font-weight:bold;
+    font-style:italic;
+    color:gray;
+)
+.texto-principal (
+    font-size:0.55em;
+    font-weight:bold; 
+)
+
+.imagen-fondo {                                                                                                                                                                                                                            
+    background-image: linear-gradient(to bottom, rgba(255,255,0,0.7), rgba(0,0,255,0.7)), url('./img/fondo1.jpng');                                                                                                                      
+}  .exampleone {
+    background-color: black;
+    color: white;
+}
